@@ -70,6 +70,15 @@ td img {
   margin-left: 5px;
 }
 
+p {
+  font-size: 1rem;
+  color: var(--dark-blue);
+  font-weight: 400;
+  font-family: "dinosaur", sans-serif !important;
+  position: relative;
+  text-align: center;
+}
+
 @media (max-width: 750px) {
   .section1 {
     padding-top: 14rem;
@@ -94,7 +103,14 @@ td img {
     font-size: 2rem;
   }
 
-  th, td {
+  th,
+  td {
     min-width: 75px;
+  }
+
+  p {
+    font-size: 1.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
