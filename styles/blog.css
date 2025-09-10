@@ -1,0 +1,274 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 90rem;
+  height: 100%;
+}
+
+.section1 {
+  padding-top: 7.43rem;
+  background-image: url(../assets/blog/section1-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 59rem;
+  overflow: hidden;
+  padding-bottom: 4rem;
+  border-radius: 0 0 3.25rem 3.25rem;
+}
+
+.section1 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.section1 .textContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  gap: 2rem;
+}
+
+.section1 h1 {
+  color: white;
+  font-weight: 500;
+  font-size: 4rem;
+}
+
+.section1 p {
+  width: 50%;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/* Section 2 */
+
+.section2 {
+  background: url('../assets/blog/section2-bg.png');
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cardSection {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cardSection .container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cardSection h1 {
+  width: 100%;
+  text-align: start;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.section2 {
+  color: var(--soft-blue);
+}
+
+.cardWrapper {
+  width: 100%;
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  width: 38rem;
+  height: 38rem;
+  -webkit-box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.25);
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.card-header {
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  overflow: hidden;
+}
+
+.card-header img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.card-body {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.card-body h2 {
+  color: var(--dark-blue);
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+}
+
+.card-body p {
+  color: var(--dark-blue);
+  font-size: 1.2rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+}
+
+.section2 .card:nth-of-type(1),
+.section2 .card:nth-of-type(2) {
+  background: -webkit-gradient(linear, left top, right top, from(var(--soft-blue)), to(rgba(0, 140, 255, 0.10)));
+  background: -o-linear-gradient(left, var(--soft-blue) 0%, rgba(0, 140, 255, 0.10) 100%);
+  background: linear-gradient(to right, var(--soft-blue) 0%, rgba(0, 140, 255, 0.10) 100%)
+}
+
+/* Section 3 */
+.section3 {
+  position: relative;
+  background: -webkit-gradient(linear, left top, right top, from(var(--soft-blue)), color-stop(70%, rgba(0, 140, 255, 0.10)), to(rgba(0, 140, 255, 0.01)));
+  background: -o-linear-gradient(left, var(--soft-blue) 0%, rgba(0, 140, 255, 0.10) 70%, rgba(0, 140, 255, 0.01) 100%);
+  background: linear-gradient(to right, var(--soft-blue) 0%, rgba(0, 140, 255, 0.10) 70%, rgba(0, 140, 255, 0.01) 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0 0 1rem 0rem var(--dark-blue);
+          box-shadow: 0 0 1rem 0rem var(--dark-blue);
+}
+  
+.section3 h1 {
+  color: var(--dark-blue);
+}
+
+.section3Bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: url('../assets/blog/section3-bg.png'), -webkit-gradient(linear, left top, right top, from(var(--soft-blue)), color-stop(70%, rgba(0, 140, 255, 0.10)), to(rgba(0, 140, 255, 0.01)));
+  background: url('../assets/blog/section3-bg.png'), -o-linear-gradient(left, var(--soft-blue) 0%, rgba(0, 140, 255, 0.10) 70%, rgba(0, 140, 255, 0.01) 100%);
+  background: url('../assets/blog/section3-bg.png'), linear-gradient(to right, var(--soft-blue) 0%, rgba(0, 140, 255, 0.10) 70%, rgba(0, 140, 255, 0.01) 100%);
+  background-size: 75%, cover;
+  background-position: right, center;
+  background-repeat: no-repeat, no-repeat;
+  z-index: -1;
+  -webkit-mask: -webkit-gradient(linear, left top, right top, from(black), color-stop(40%, black), to(transparent));
+  -webkit-mask: linear-gradient(to right, black 0%, black 40%, transparent 100%);
+          mask: -webkit-gradient(linear, left top, right top, from(black), color-stop(40%, black), to(transparent));
+          mask: linear-gradient(to right, black 0%, black 40%, transparent 100%);
+}
+
+.section3 .card {
+  background-color: white;
+}
+
+/* Section 4 */
+.section4 {
+  background: url('../assets/blog/section4-bg.png');
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.section4 h1 {
+  color: var(--soft-blue);
+}
+
+.section4 .card:nth-of-type(1),
+.section4 .card:nth-of-type(2) {
+  background: -webkit-gradient(linear, left top, right top, from(var(--soft-blue)), to(rgba(0, 140, 255, 0.10)));
+  background: -o-linear-gradient(left, var(--soft-blue) 0%, rgba(0, 140, 255, 0.10) 100%);
+  background: linear-gradient(to right, var(--soft-blue) 0%, rgba(0, 140, 255, 0.10) 100%)
+}
+
+@media (max-width: 750px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .section1 p {
+    width: 100%;
+  }
+
+  .cardWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}

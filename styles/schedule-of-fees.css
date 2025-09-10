@@ -1,0 +1,256 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.section1 {
+    padding-top: 5rem;
+    background: var(--white);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 4rem;
+    min-height: 40rem;
+}
+.section1 .container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 90rem;
+}
+/* Style the tab */
+.tab {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    min-width: 50rem;
+    border-bottom: 2px solid #DEDEDE;
+    height: 5rem;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1.5rem;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--dark-blue);
+    text-transform: capitalize;
+    text-align: left;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    height: 5rem;
+  }
+  
+
+  .tab button:hover{
+    border-bottom: 2px solid var(--soft-blue);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active{
+    border-bottom: 2px solid var(--soft-blue);
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .tabcontent.none{
+    display: none;
+  }
+  .tabcontent h1{
+    font-size: 4rem;
+    color: var(--soft-blue);
+    font-weight: 700;
+    text-align: center;
+    line-height: 0.8;
+    margin: 1rem 0;
+  }
+  .tabcontent h1 span{
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+  .tabcontent p,.tabcontent ul li{
+    font-size: 1rem;
+    color: var(--dark-blue);
+    font-weight: 400;
+    font-family: "dinosaur", sans-serif !important;
+    position: relative;
+  }
+  .tabcontent ul{
+    padding-left: 2.3rem;
+  }
+  .tabcontent a{
+    color: var(--white);
+    text-decoration: underline;
+  }
+.download-btn{
+    margin-top: 5rem;
+    padding: 0.7rem 2rem;
+    border-radius: 0.32rem;
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-align: center;
+    -webkit-filter: drop-shadow(0px 0.218rem 0.218rem rgba(0, 0, 0, 0.15));
+            filter: drop-shadow(0px 0.218rem 0.218rem rgba(0, 0, 0, 0.15));
+            will-change: filter;
+    line-height: 1;
+    outline: none;
+    border: none;
+    color: #113569;
+    cursor: pointer;
+    background-color: #E6E9F5;
+}
+table, th, td {
+  border: 1px solid var(--dark-blue);
+  border-collapse: collapse;
+  color: var(--dark-blue);
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  position: relative;
+}
+table{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+table th{
+    background-color: var(--soft-blue);
+    color: var(--white);
+}
+.tabcontent div{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 2rem 0;
+}
+.tabcontent h2{
+    text-align: center;
+    border-bottom: 2px solid #DEDEDE;
+    width: 100%;
+    padding: 0.5rem 0;
+    color: var(--dark-blue);
+    font-size: 1.8rem;
+}
+.tabcontent td span, .tabcontent p span{
+    position: absolute;
+    color: var(--soft-blue);
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.tabcontent td span{
+    margin-left: 0.2rem;
+}
+.tabcontent p span{
+    left: -0.5rem;
+}
+  @media (max-width: 750px) {
+    .section1{
+        padding-top: 14rem;
+    }
+    .section1 .container{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        
+    }
+    .tab{
+        border-right: none;
+        min-width: 100%;
+        height: 11rem;
+    }
+.tabcontent h2{
+    font-size: 5.5vw;
+}
+.tabcontent td span, .tabcontent p span{
+    font-size: 3vw;
+}
+.tabcontent p span {
+    left: 0;
+}
+.tabcontent p{
+    padding-left: 1rem;
+}
+      .tab button{
+        font-size: 5vw;
+        margin-top: 3rem;
+        height: 8rem;
+      }
+      .tabcontent p, .tabcontent ul li{
+        font-size: 3.8vw;
+      }
+      .download-btn{
+        font-size: 4.5vw;
+        padding: 1rem 3rem;
+      }
+      table{
+        width: 100%;
+      }
+      table, th, td{
+        font-size: 4vw;
+ 
+      }
+
+  }
