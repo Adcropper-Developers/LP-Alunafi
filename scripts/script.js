@@ -108,6 +108,8 @@ footer.innerHTML = `<div class="footerTop">
                 <a><b>Links</b></a>
                 <a href="#" onclick="createContactForm(event)">Contact Us</a>
                 <a href="resources.html">Resources</a>
+                <a href="https://docs.alunafi.com">Documentation</a>
+                <a href="banking-currency-holiday.html">Banking Currency Holiday</a>
             </div>
             <div>
                 <p><b>Legal</b></p>

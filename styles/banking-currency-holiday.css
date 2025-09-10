@@ -1,0 +1,100 @@
+.section1 {
+  padding-top: 5rem;
+  background: var(--white);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 4rem;
+  min-height: 40rem;
+}
+
+.section1 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 90rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid var(--dark-blue);
+  border-collapse: collapse;
+  color: var(--dark-blue);
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  position: relative;
+}
+
+table {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+table th {
+  background-color: var(--soft-blue);
+  color: var(--white);
+}
+
+h1 {
+  font-size: 4rem;
+  color: var(--soft-blue);
+  font-weight: 700;
+  text-align: center;
+  line-height: 0.8;
+  margin: 1rem 0;
+}
+
+td img {
+  margin-bottom: -3px;
+  margin-left: 5px;
+}
+
+@media (max-width: 750px) {
+  .section1 {
+    padding-top: 14rem;
+  }
+
+  .container {
+    width: 100%;
+    max-width: unset;
+  }
+
+
+  .table-wrapper {
+    width: 100%;
+    overflow-x: scroll;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  table,
+  th,
+  td {
+    font-size: 2rem;
+  }
+
+  th, td {
+    min-width: 75px;
+  }
+}
