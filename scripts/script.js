@@ -260,7 +260,8 @@ buttons.forEach((button) => {
       (!targetUrl.includes("alunafi.com")) &&
       (!targetUrl.includes("http://127.0.0.1")) &&
       (!targetUrl.includes("alunafi-adcropperteam.vercel.app")) &&
-      (!targetUrl.includes("lp-test-git-alunafi-adcropper.vercel.app"))
+      (!targetUrl.includes("lp-test-git-alunafi-adcropper.vercel.app")) &&
+      (!targetUrl.includes("https://adcropper-developers.github.io/LP-Alunafi/"))
     ) {
       createLeavingAlunafiPopup(e, targetUrl);
     }
