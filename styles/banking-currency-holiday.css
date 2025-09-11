@@ -14,6 +14,7 @@
   overflow: hidden;
   padding-bottom: 4rem;
   min-height: 40rem;
+  position: relative;
 }
 
 .section1 .container {
@@ -79,9 +80,19 @@ td img {
   text-align: center;
 }
 
+.section1 p.information {
+  width: 100%;
+  text-align: left;
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0;  
+}
+
 @media (max-width: 750px) {
   .section1 {
     padding-top: 14rem;
+    padding-bottom: 10rem;
   }
 
   .container {
@@ -112,5 +123,9 @@ td img {
     font-size: 1.75rem;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .section1 p.information {
+    font-size: 1.2rem;
   }
 }
