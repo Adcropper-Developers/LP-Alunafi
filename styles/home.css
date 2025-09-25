@@ -600,6 +600,9 @@ section{
     transition: 0.5s opacity, 1s transform;
     transition: 0.5s opacity, 1s transform, 1s -webkit-transform;
 }
+.section1.active .textContainer h1 {
+    white-space: nowrap;
+}
 .section1.active .textContainer h2{
     -webkit-transition-delay: 0.5s;
          -o-transition-delay: 0.5s;
